@@ -1,0 +1,14 @@
+# Chroma
+chroma-data/
+
+# Ollama
+ollama-data/
+
+# Environment
+.env
+frontend/.env
+backend/.env
+python-service/.env
+
+# Keep examples
+!.env.example
