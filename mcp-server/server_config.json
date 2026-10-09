@@ -1,0 +1,34 @@
+{
+  "app": {
+    "name": "ai-content-studio",
+    "version": "unknown",
+    "description": "AI Content Studio - React + Vite + ChromaDB platform for content creation, AI generation, knowledge management, and model operations"
+  },
+  "stack": "python",
+  "routes": [
+    {
+      "method": "get",
+      "path": "/health"
+    },
+    {
+      "method": "post",
+      "path": "/generate"
+    },
+    {
+      "method": "post",
+      "path": "/llamacpp"
+    },
+    {
+      "method": "post",
+      "path": "/embeddings"
+    }
+  ],
+  "pages": [],
+  "base_url": "http://localhost:8000",
+  "module": null,
+  "scripts": {},
+  "cli_entry": null,
+  "server": "mcp-server/mcp_server.py",
+  "runner": "python",
+  "runner_cmd": "python3"
+}
