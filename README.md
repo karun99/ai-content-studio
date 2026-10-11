@@ -214,3 +214,15 @@ MIT
 - For production, add authentication (e.g., JWT) and rate limiting
 - NIM requires an NGC account and API key
 - All inference engines are interchangeable through the router
+
+## MCP Server
+
+This repository ships a dependency-free [Model Context Protocol](https://modelcontextprotocol.io)
+stdio server so assistants, agents and [glama.ai](https://glama.ai) can inspect the project.
+
+```bash
+node mcp/server.js
+```
+
+Tools: `repo_info`, `list_files`, `read_file`, `search`, `health`. Standard library only — no
+installation or dependencies required. Listing metadata is declared in [`glama.json`](glama.json).
